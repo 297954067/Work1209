@@ -18,6 +18,11 @@ public void setUser_Id(Integer user_Id) {
 public String getUser_name() {
 	return user_name;
 }
+@Override
+public String toString() {
+	return "Users [user_Id=" + user_Id + ", user_name=" + user_name + ", user_pwd=" + user_pwd + ", user_role="
+			+ user_role + ", user_status=" + user_status + "]";
+}
 public void setUser_name(String user_name) {
 	this.user_name = user_name;
 }

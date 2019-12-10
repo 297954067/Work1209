@@ -1,5 +1,5 @@
 ＃编译的类文件
-* .class
+*.class
 *.settings
 ＃日志文件
 * .log
